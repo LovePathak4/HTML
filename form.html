@@ -48,6 +48,7 @@
         <br>
         <hr>
         <div>
+            
             <input type="radio" id="apple" name="fruit" value="apple"/>
             <label for="apple">Apple</label>
             <input type="radio" id="mango" name="fruit" value="mango"/>
@@ -56,19 +57,63 @@
             <label for="orange">orange</label>
             <button type="submit">submit</button>
             
-
-
-
-
-
         </div>
 
+        <div>
+            <h4>select Your Profession</h4>
+            <select name="profession" id="profession">
+                <option value="stu">Student</option>
+                <option value="dev">Developer</option>
+                <option value="des">Designer</option>
+            </select>
+            <br>
+            <hr>
+            <div>
+                
 
+            <label for ="volume">enter the volume</label>
+            <input type="range" id="volume" name="volume" min="0" max="100" step="10"/>
+            <button type="submit">submit</button>
 
-
+        </div>
+        <hr>
+        
+            <label for= "feedback">Give Your valuable feedback :</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="enter your feedback here..."></textarea>
+            <button type ="submit">Submit</button>
+            
 
 
     </form>
+
+
+    <h3>Registration form</h3>
+    <form action="/action">
+        <div>
+            <input type="text" name="firstname" placeholder="First Name"/>
+            <input type="text" name="lastname" placeholder="Last Name"/>
+        </div>
+        <div>
+            <label for="gender">Please select your gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            Do you agree toa ll terms of service?
+            <input type="checkbox" id="tos" name="tos"/>
+            <label for="tos"> Yes, I agree</label>
+        </div>
+        <button type="submit">Register</button> 
+    </form>
+
+
+
+
+
+
     
 </body>
 </html>
