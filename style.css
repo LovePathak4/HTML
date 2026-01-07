@@ -1,13 +1,21 @@
-h2 {
-    color: orange;
+*{
+    font-family: courier new;
 }
-p {
-    background-color: black;
-    color: white;
-    
+h1{
+    color: #1b74e4;
 }
 
-button {
-    background-color: blue;
-    color: white;
+#searchbtn{
+    background-color:black ;
+    color:white;
+}
+
+.userbtn{
+    background-color: aqua;
+    color: black
+}
+
+#myid p {
+    color:green;
+    font-weight: bold;
 }
