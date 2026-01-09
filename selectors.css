@@ -27,3 +27,61 @@ h1{
     color: purple;
     background-color: yellow;
 }
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote +button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+div>input{
+    background-color: darksalmon;
+}
+
+input[type="text"]{
+    color:white;
+}
+input[type="password"]{
+    color: green;
+}
+input [type]{
+    color: black;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover
+{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: red;
+    color: yellow;
+}
+
+input[type="radio"]:checked + label{
+    font-weight: bold;
+    color: red;
+}
+
+/*.post:nth-of-type(2){
+    background-color: rgb(155, 21, 21);
+}
+    */
+
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    font-weight: bold;
+}
+
+p::selection{
+    background-color: yellow;
+    color: green;
+}
